@@ -3,6 +3,8 @@ import { CategoryListComponent } from './features/category/category-list/categor
 import { NavbarComponent } from './core/components/navbar/navbar.component';
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './features/main-page/main-page.component';
+import path from 'path';
+import { AddCategoryComponent } from './features/category/add-category/add-category.component';
 
 export const routes: Routes = [
     {
@@ -12,5 +14,9 @@ export const routes: Routes = [
     {
         path: 'admin/categories',
         component: CategoryListComponent
+    },
+    {
+        path: 'admin/categories/add',
+        component: AddCategoryComponent
     }
 ];
