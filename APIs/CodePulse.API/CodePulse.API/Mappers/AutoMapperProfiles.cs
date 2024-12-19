@@ -8,6 +8,7 @@ namespace CodePulse.API.Mappers
         public AutoMapperProfiles()
         {
             CreateMap<Category, CreateCategoryRequestDto>().ReverseMap();
+            CreateMap<Category, CategoryDto>().ReverseMap();    
         }
         
     }

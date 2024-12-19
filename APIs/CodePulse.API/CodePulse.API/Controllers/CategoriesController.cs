@@ -29,5 +29,15 @@ namespace CodePulse.API.Controllers
 
             return Ok(domainModel); 
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllCategories()
+        {
+            var categories = await _categoryRepository.GetAllAsync();
+
+            var categoriesDto = _mapper.Map<List<CategoryDto>>(categories);
+
+            return Ok(categoriesDto);
+        }
     }
 }

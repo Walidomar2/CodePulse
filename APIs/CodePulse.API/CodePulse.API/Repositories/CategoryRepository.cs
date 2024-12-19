@@ -22,5 +22,11 @@ namespace CodePulse.API.Repositories
             await _context.SaveChangesAsync();
             return category;
         }
+
+        public async Task<IEnumerable<Category>> GetAllAsync()
+        {
+            return await _context.Categories.ToListAsync();
+
+        }
     }
 }
