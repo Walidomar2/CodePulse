@@ -21,7 +21,11 @@
                     <td>{{category.id}} </td>
                     <td> {{category.name}} </td>
                     <td> {{category.urlHandle}} </td>
-                    <td> </td>
+                    <td>
+                        <a class="btn btn-warning" [routerLink]="['/admin/categories',category.id]">
+                            Edit
+                        </a>
+                    </td>
 
                 </tr>
             </tbody>
