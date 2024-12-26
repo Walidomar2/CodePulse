@@ -53,5 +53,35 @@ namespace CodePulse.API.Controllers
 
             return Ok(_mapper.Map<CategoryDto>(categoryDomain));
         }
+
+        [HttpPut]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> UpdateCategory([FromRoute] Guid id,[FromBody] UpdateCategoryRequestDto updateCategoryModel)
+        {
+            var categoryDomain = _mapper.Map<Category>(updateCategoryModel);
+
+            categoryDomain =  await _categoryRepository.UpdateAsync(id, categoryDomain);
+
+            if(categoryDomain is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<CategoryDto>(categoryDomain));
+        }
+
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
+        {
+            var categoryDomain = await _categoryRepository.DeleteAsync(id);
+
+            if(categoryDomain is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<CategoryDto>(categoryDomain));
+        }
     }
 }

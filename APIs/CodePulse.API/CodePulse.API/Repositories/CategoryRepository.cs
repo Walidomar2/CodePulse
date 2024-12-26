@@ -2,6 +2,7 @@
 
 namespace CodePulse.API.Repositories
 {
+
     public class CategoryRepository : ICategoryRepository
     {
         private readonly ApplicationDbContext _context;
@@ -23,6 +24,21 @@ namespace CodePulse.API.Repositories
             return category;
         }
 
+        public async Task<Category?> DeleteAsync(Guid id)
+        {
+            var categoryDb = await _context.Categories.FindAsync(id);
+
+            if (categoryDb is null)
+            {
+                return null;
+            }
+
+            _context.Categories.Remove(categoryDb);
+            await _context.SaveChangesAsync();
+
+            return categoryDb;
+        }
+
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
             return await _context.Categories.ToListAsync();
@@ -33,6 +49,23 @@ namespace CodePulse.API.Repositories
         {
             return await _context.Categories.FindAsync(id);
           
+        }
+
+        public async Task<Category?> UpdateAsync(Guid id, Category category)
+        {
+            var categoryDb = await _context.Categories.FindAsync(id);
+            if(categoryDb is null)
+            {
+                return null;
+            }
+
+            category.Id = id;
+            categoryDb.Name = category.Name;
+            categoryDb.UrlHandle = category.UrlHandle;
+
+            await _context.SaveChangesAsync();
+
+            return category;
         }
     }
 }
