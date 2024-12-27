@@ -15,6 +15,7 @@ export class EditCategoryComponent implements OnInit, OnDestroy {
   id: string | null = null;
   paramSubscription?: Subscription;
   editCategorySubscription?: Subscription;
+  deleteCategorySubscription?: Subscription;
   category?: Category;
 
   constructor(private route: ActivatedRoute,
@@ -26,6 +27,7 @@ export class EditCategoryComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.paramSubscription?.unsubscribe();
     this.editCategorySubscription?.unsubscribe();
+    this.deleteCategorySubscription?.unsubscribe();
   }
 
   ngOnInit(): void {
@@ -63,4 +65,15 @@ export class EditCategoryComponent implements OnInit, OnDestroy {
 
   }
 
+  onDelete(): void {
+    if (this.id) {
+      this.deleteCategorySubscription = this.categoryService.deleteCategory(this.id)
+        .subscribe({
+          next: (response) => {
+            this.router.navigateByUrl('/admin/categories');
+          }
+        });
+    }
+
+  }
 }
