@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CodePulse.API.Models.DTO.BlogPostDTOs;
 using CodePulse.API.Models.DTO.CategoryDTOs;
 
 namespace CodePulse.API.Mappers
@@ -10,6 +11,8 @@ namespace CodePulse.API.Mappers
             CreateMap<Category, CreateCategoryRequestDto>().ReverseMap();
             CreateMap<Category, CategoryDto>().ReverseMap();    
             CreateMap<Category, UpdateCategoryRequestDto>().ReverseMap();
+
+            CreateMap<BlogPost,CreateBlogPostRequestDto>().ReverseMap();    
         }
         
     }
