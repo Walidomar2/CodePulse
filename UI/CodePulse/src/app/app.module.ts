@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EditCategoryComponent } from './feature/category/edit-category/edit-category.component';
 import { DeleteCategoryComponent } from './feature/category/delete-category/delete-category.component';
+import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpost-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DeleteCategoryComponent } from './feature/category/delete-category/dele
     CategoriesListComponent,
     AddCategoryComponent,
     EditCategoryComponent,
-    DeleteCategoryComponent
+    DeleteCategoryComponent,
+    BlogpostListComponent
   ],
   imports: [
     BrowserModule,
