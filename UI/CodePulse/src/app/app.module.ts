@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EditCategoryComponent } from './feature/category/edit-category/edit-category.component';
 import { DeleteCategoryComponent } from './feature/category/delete-category/delete-category.component';
 import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpost-list.component';
+import { AddBlogpostComponent } from './feature/blog-post/add-blogpost/add-blogpost.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpos
     AddCategoryComponent,
     EditCategoryComponent,
     DeleteCategoryComponent,
-    BlogpostListComponent
+    BlogpostListComponent,
+    AddBlogpostComponent
   ],
   imports: [
     BrowserModule,
