@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Category } from '../../models/category.model';
+import { Category } from '../models/category.model';
 import { Subscription } from 'rxjs';
 import { CategoryService } from '../services/category.service';
 import { ActivatedRoute, Route, Router } from '@angular/router';
