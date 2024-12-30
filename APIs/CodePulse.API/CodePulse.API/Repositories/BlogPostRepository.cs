@@ -1,4 +1,5 @@
 ﻿
+
 namespace CodePulse.API.Repositories
 {
     public class BlogPostRepository : IBlogPostRepository
@@ -20,6 +21,11 @@ namespace CodePulse.API.Repositories
             await _context.SaveChangesAsync();
 
             return blogPost;
+        }
+
+        public async Task<IEnumerable<BlogPost>> GetAllAsync()
+        {
+            return await _context.BlogPosts.ToListAsync();
         }
     }
 }
