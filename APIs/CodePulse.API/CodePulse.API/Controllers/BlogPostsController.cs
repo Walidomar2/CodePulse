@@ -61,6 +61,23 @@ namespace CodePulse.API.Controllers
             return Ok(_mapper.Map<BlogPostDto>(blogPost));
         }
 
+        [HttpPut]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> UpdateBlogPost([FromRoute] Guid id
+            , [FromBody] UpdateBlogPostRequestDto updateBlogPostRequest)
+        {
+            var blogPostDomain = await UpdateBlogPostMapping(updateBlogPostRequest);
+
+            blogPostDomain = await _blogPostRepository.UpdateAsync(id, blogPostDomain);
+
+            if(blogPostDomain is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<BlogPostDto>(blogPostDomain));
+        }
+
         private async Task<BlogPost> CreateBlogPostMapping(CreateBlogPostRequestDto dtoModel)
         {
             var blogPost = new BlogPost
@@ -87,6 +104,34 @@ namespace CodePulse.API.Controllers
             }
 
             return blogPost;    
+        }
+
+        private async Task<BlogPost> UpdateBlogPostMapping(UpdateBlogPostRequestDto dtoModel)
+        {
+            var blogPost = new BlogPost
+            {
+                Title = dtoModel.Title,
+                ShortDescription = dtoModel.ShortDescription,
+                Content = dtoModel.Content,
+                FeaturedImageUrl = dtoModel.FeaturedImageUrl,
+                UrlHandle = dtoModel.UrlHandle,
+                PublishedDate = dtoModel.PublishedDate,
+                Author = dtoModel.Author,
+                IsVisible = dtoModel.IsVisible,
+                Categories = new List<Category>()
+            };
+
+            foreach (var categoryGuid in dtoModel.Categories)
+            {
+                var existingCategory = await _categoryRepository.GetByIdAsync(categoryGuid);
+
+                if (existingCategory is not null)
+                {
+                    blogPost.Categories.Add(existingCategory);
+                }
+            }
+
+            return blogPost;
         }
     }
 }
