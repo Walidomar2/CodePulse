@@ -13,6 +13,7 @@ import { DeleteCategoryComponent } from './feature/category/delete-category/dele
 import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpost-list.component';
 import { AddBlogpostComponent } from './feature/blog-post/add-blogpost/add-blogpost.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { EditBlogpostComponent } from './feature/blog-post/edit-blogpost/edit-blogpost.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { MarkdownModule } from 'ngx-markdown';
     EditCategoryComponent,
     DeleteCategoryComponent,
     BlogpostListComponent,
-    AddBlogpostComponent
+    AddBlogpostComponent,
+    EditBlogpostComponent
   ],
   imports: [
     BrowserModule,
