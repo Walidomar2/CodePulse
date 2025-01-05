@@ -37,7 +37,7 @@ namespace CodePulse.API.Controllers
                 return BadRequest(ModelState);
             }
 
-            return Ok(BlogPostDtoMapping(blogPostDomain));
+            return Ok(_mapper.Map<BlogPostDto>(blogPostDomain));
         }
 
         [HttpGet]
@@ -75,26 +75,5 @@ namespace CodePulse.API.Controllers
             return blogPost;    
         }
 
-        private BlogPostDto BlogPostDtoMapping(BlogPost blodPostModel)
-        {
-            return new BlogPostDto
-            {
-                Id = blodPostModel.Id,
-                Author = blodPostModel.Author,
-                Content = blodPostModel.Content,
-                FeaturedImageUrl = blodPostModel.FeaturedImageUrl,
-                IsVisible = blodPostModel.IsVisible,
-                PublishedDate = blodPostModel.PublishedDate,
-                ShortDescription = blodPostModel.ShortDescription,
-                Title = blodPostModel.Title,
-                UrlHandle = blodPostModel.UrlHandle,
-                Categories = blodPostModel.Categories.Select(x => new CategoryDto
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                    UrlHandle = x.UrlHandle
-                }).ToList()
-            };
-        }
     }
 }

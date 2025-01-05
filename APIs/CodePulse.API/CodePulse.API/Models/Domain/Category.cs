@@ -6,6 +6,6 @@
         public string Name { get; set; }
         public string UrlHandle { get; set; }
 
-        public ICollection<BlogPost> BlogPosts { get; set; }
+        public List<BlogPost> BlogPosts { get; set; }
     }
 }
