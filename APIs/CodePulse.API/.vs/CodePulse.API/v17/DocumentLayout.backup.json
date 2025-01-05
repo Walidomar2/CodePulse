@@ -50,8 +50,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogPostDTOs\\CreateBlogPostRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T23:16:56.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T23:16:56.761Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogPostDTOs\\UpdateBlogPostRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T23:16:54.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T23:16:54.609Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "CodePulse.API\\Interfaces\\IBlogPostRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T22:09:14.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T22:09:14.882Z"
             },
             {
               "$type": "Document",
@@ -87,7 +84,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\BlogPostRepository.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Repositories\\BlogPostRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Repositories\\BlogPostRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T20:35:20.535Z",
               "EditorCaption": ""
@@ -102,8 +99,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T20:33:49.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T20:33:49.28Z"
             },
             {
               "$type": "Document",

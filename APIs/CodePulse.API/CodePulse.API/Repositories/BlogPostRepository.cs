@@ -54,7 +54,7 @@ namespace CodePulse.API.Repositories
             blogPostDB.FeaturedImageUrl = blogPost.FeaturedImageUrl;
             blogPostDB.UrlHandle = blogPost.UrlHandle;  
             blogPostDB.PublishedDate = blogPost.PublishedDate;
-            blogPost.Categories = blogPost.Categories;  
+            blogPostDB.Categories = blogPost.Categories;  
 
             await _context.SaveChangesAsync();
             return blogPostDB;
