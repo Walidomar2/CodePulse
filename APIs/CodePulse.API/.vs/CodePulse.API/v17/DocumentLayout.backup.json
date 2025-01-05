@@ -7,28 +7,12 @@
       "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\mappers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\mappers\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\models\\dto\\blogpostdtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\blogpostdtos\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\interfaces\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\interfaces\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,76 +22,23 @@
       "DocumentGroups": [
         {
           "DockedHeight": 529,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 38,
-          "SelectedChildIndex": 6,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BlogPostDto.cs",
-              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogPostDTOs\\BlogPostDto.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\BlogPostDTOs\\BlogPostDto.cs",
-              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogPostDTOs\\BlogPostDto.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogPostDTOs\\BlogPostDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T20:18:03.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BlogPostRepository.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Repositories\\BlogPostRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\BlogPostRepository.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Repositories\\BlogPostRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Repositories\\BlogPostRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T13:28:41.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBlogPostRepository.cs",
-              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Interfaces\\IBlogPostRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Interfaces\\IBlogPostRepository.cs",
-              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Interfaces\\IBlogPostRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Interfaces\\IBlogPostRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T12:59:44.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Mappers\\AutoMapperProfiles.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Mappers\\AutoMapperProfiles.cs",
-              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Mappers\\AutoMapperProfiles.cs",
-              "RelativeToolTip": "CodePulse.API\\Mappers\\AutoMapperProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T12:57:12.572Z",
+              "WhenOpened": "2025-01-05T20:35:20.535Z",
               "EditorCaption": ""
             },
             {
@@ -118,46 +49,33 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T12:08:32.428Z",
+              "WhenOpened": "2025-01-05T20:33:49.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
+              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeToolTip": "CodePulse.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T11:53:33.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\Category.cs",
-              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\Domain\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T11:53:25.243Z",
+              "WhenOpened": "2025-01-05T20:32:55.084Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 2,
+          "DockedHeight": 38,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
