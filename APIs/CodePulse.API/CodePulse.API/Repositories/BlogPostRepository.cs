@@ -26,6 +26,21 @@ namespace CodePulse.API.Repositories
             return blogPost;
         }
 
+        public async Task<BlogPost?> DeleteAsync(Guid id)
+        {
+            var blogPost = await _context.BlogPosts.FindAsync(id);  
+
+            if(blogPost is null)
+            {
+                return null;
+            }
+
+            _context.BlogPosts.Remove(blogPost);    
+            await _context.SaveChangesAsync();  
+
+            return blogPost;
+        }
+
         public async Task<IEnumerable<BlogPost>> GetAllAsync()
         {
             return await _context.BlogPosts.Include(x => x.Categories).ToListAsync();

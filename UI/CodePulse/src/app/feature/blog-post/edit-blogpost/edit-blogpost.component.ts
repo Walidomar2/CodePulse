@@ -34,8 +34,7 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
   }
 
   onFormSubmit(): void {
-    if(this.model && this.id)
-    {
+    if (this.model && this.id) {
       var updateBlogPost: UpdateBlogPost = {
         author: this.model.author,
         content: this.model.content,
@@ -49,18 +48,25 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
       };
 
       this.updateBlogPostSubscription = this.blogPostService.updateBlogPost(this.id, updateBlogPost)
-      .subscribe({
-        next: (response) => {
-          this.router.navigateByUrl('/admin/blogposts');
-        }
-      });
-      
+        .subscribe({
+          next: (response) => {
+            this.router.navigateByUrl('/admin/blogposts');
+          }
+        });
+
     }
 
   }
 
   onDelete(): void {
-
+    if (this.id) {
+      this.deleteBlogPostSubscription = this.blogPostService.deleteBlogPost(this.id)
+        .subscribe({
+          next: (response) => {
+            this.router.navigateByUrl('/admin/blogposts');
+          }
+        });
+    }
   }
 
   closeImageSelector(): void {

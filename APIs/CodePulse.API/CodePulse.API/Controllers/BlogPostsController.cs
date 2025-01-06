@@ -78,6 +78,21 @@ namespace CodePulse.API.Controllers
             return Ok(_mapper.Map<BlogPostDto>(blogPostDomain));
         }
 
+
+        [HttpDelete]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> DeleteBlogPost([FromRoute] Guid id)
+        {
+            var blogPost = await _blogPostRepository.DeleteAsync(id);
+
+            if(blogPost is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<BlogPostDto>(blogPost));
+        }
+
         private async Task<BlogPost> CreateBlogPostMapping(CreateBlogPostRequestDto dtoModel)
         {
             var blogPost = new BlogPost
