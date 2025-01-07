@@ -1,6 +1,7 @@
 using CodePulse.API.Mappers;
 using CodePulse.API.Repositories;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

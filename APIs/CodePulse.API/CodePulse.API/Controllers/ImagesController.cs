@@ -2,6 +2,7 @@
 using CodePulse.API.Models.DTO.ImagesDtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace CodePulse.API.Controllers
 {
@@ -41,6 +42,14 @@ namespace CodePulse.API.Controllers
             }
 
             return BadRequest(ModelState);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllImages()
+        {
+            var images = await _imageRepository.GetAllAsync();
+
+            return Ok(_mapper.Map<List<BlogImageDto>>(images));
         }
 
 

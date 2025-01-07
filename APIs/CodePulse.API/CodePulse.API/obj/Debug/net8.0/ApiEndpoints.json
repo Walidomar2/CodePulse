@@ -207,5 +207,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodePulse.API.Controllers.ImagesController",
+    "Method": "GetAllImages",
+    "RelativePath": "api/Images",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
