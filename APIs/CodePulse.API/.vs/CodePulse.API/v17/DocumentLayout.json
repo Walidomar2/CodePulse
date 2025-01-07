@@ -58,8 +58,7 @@
               "RelativeToolTip": "CodePulse.API\\Mappers\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:30:44.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:30:44.6Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\ImageRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:15:56.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:15:56.41Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "CodePulse.API\\Interfaces\\IImageRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:14:39.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:14:39.791Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\ImagesController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:59:14.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T15:59:14.223Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "CodePulse.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:52:15.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T15:52:15.192Z"
             },
             {
               "$type": "Document",
