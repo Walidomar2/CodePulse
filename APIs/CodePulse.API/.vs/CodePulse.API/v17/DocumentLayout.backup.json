@@ -41,7 +41,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 353,
+          "DockedHeight": 415,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "CodePulse.API\\Mappers\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:30:44.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:30:44.6Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\ImagesDtos\\BlogImageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:30:20.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:30:20.16Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Program.cs",
               "RelativeToolTip": "CodePulse.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T16:28:15.709Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\ImageRepository.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:15:56.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:15:56.41Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "CodePulse.API\\Interfaces\\IImageRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T16:14:39.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T16:14:39.791Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\ImagesController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:59:14.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T15:59:14.223Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "CodePulse.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:52:15.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T15:52:15.192Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:49:59.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T15:49:59.14Z"
             }
           ]
         },
@@ -161,6 +154,16 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 116,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
