@@ -6,6 +6,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { BlogPostService } from '../services/blog-post.service';
 import { CategoryService } from '../../category/services/category.service';
 import { UpdateBlogPost } from '../models/update-blog-post.model';
+import { ImageService } from 'src/app/shared/components/image-selector/image.service';
 
 @Component({
   selector: 'app-edit-blogpost',
@@ -29,7 +30,8 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute,
     private blogPostService: BlogPostService,
     private categoryService: CategoryService,
-    private router: Router) {
+    private router: Router,
+    private imageService: ImageService) {
 
   }
 
@@ -101,6 +103,15 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
               }
             });
         }
+
+        this.imageSelectSubscricption = this.imageService.onSelectImage().subscribe({
+          next: (response) => {
+            if (this.model) {
+              this.model.featuredImageUrl = response.url;
+              this.isImageSelectorVisible = false;
+            }
+          }
+        });
 
       }
     });
