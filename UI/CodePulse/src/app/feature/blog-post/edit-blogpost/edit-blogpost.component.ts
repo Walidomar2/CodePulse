@@ -70,11 +70,11 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
   }
 
   closeImageSelector(): void {
-
+    this.isImageSelectorVisible = false;
   }
 
   openImageSelector(): void {
-
+    this.isImageSelectorVisible = true;
   }
 
   ngOnDestroy(): void {
