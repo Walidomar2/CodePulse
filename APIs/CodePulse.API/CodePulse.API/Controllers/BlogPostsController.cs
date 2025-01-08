@@ -95,7 +95,7 @@ namespace CodePulse.API.Controllers
 
 
         [HttpGet]
-        [Route("{urlHandle:string}")]
+        [Route("{urlHandle}")]
         public async Task<IActionResult> GetBlogPostByUrlHandle([FromRoute] string urlHandle)
         {
             var blogPostDomain = await _blogPostRepository.GetByUrlHandleAsync(urlHandle);
