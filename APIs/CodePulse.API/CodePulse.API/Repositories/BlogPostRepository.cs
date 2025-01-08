@@ -48,7 +48,14 @@ namespace CodePulse.API.Repositories
 
         public async Task<BlogPost?> GetByIdAsync(Guid id)
         {
-            return await _context.BlogPosts.Include(x => x.Categories).FirstOrDefaultAsync(x => x.Id == id);
+            return await _context.BlogPosts.Include(x => x.Categories)
+                .FirstOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<BlogPost?> GetByUrlHandleAsync(string urlHandle)
+        {
+            return await _context.BlogPosts.Include(x => x.Categories)
+                .FirstOrDefaultAsync(x => x.UrlHandle == urlHandle);
         }
 
         public async Task<BlogPost?> UpdateAsync(Guid id, BlogPost blogPost)

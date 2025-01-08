@@ -93,6 +93,22 @@ namespace CodePulse.API.Controllers
             return Ok(_mapper.Map<BlogPostDto>(blogPost));
         }
 
+
+        [HttpGet]
+        [Route("{urlHandle:string}")]
+        public async Task<IActionResult> GetBlogPostByUrlHandle([FromRoute] string urlHandle)
+        {
+            var blogPostDomain = await _blogPostRepository.GetByUrlHandleAsync(urlHandle);
+
+            if(blogPostDomain is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<BlogPostDto>(blogPostDomain));
+        }
+
+
         private async Task<BlogPost> CreateBlogPostMapping(CreateBlogPostRequestDto dtoModel)
         {
             var blogPost = new BlogPost
