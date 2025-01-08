@@ -7,8 +7,13 @@ import { DeleteCategoryComponent } from './feature/category/delete-category/dele
 import { BlogpostListComponent } from './feature/blog-post/blogpost-list/blogpost-list.component';
 import { AddBlogpostComponent } from './feature/blog-post/add-blogpost/add-blogpost.component';
 import { EditBlogpostComponent } from './feature/blog-post/edit-blogpost/edit-blogpost.component';
+import { HomeComponent } from './feature/public/home/home.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent
+  },
   {
     path: 'admin/categories',
     component: CategoriesListComponent
