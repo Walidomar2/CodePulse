@@ -21,7 +21,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 486,
+          "DockedHeight": 339,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -38,7 +38,8 @@
               "RelativeToolTip": "CodePulse.API\\Interfaces\\IBlogPostRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:28:57.756Z"
+              "WhenOpened": "2025-01-08T14:28:57.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,7 +62,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAswGEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T14:27:20.934Z",
               "EditorCaption": ""
@@ -69,17 +70,21 @@
           ]
         },
         {
-          "DockedHeight": 38,
+          "DockedHeight": 206,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },
         {
-          "DockedHeight": 45,
+          "DockedHeight": 24,
           "SelectedChildIndex": -1,
           "Children": [
             {
