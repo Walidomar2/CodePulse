@@ -9,6 +9,10 @@ D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 20
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Azure.Core.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Azure.Identity.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Humanizer.dll
+D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -29,6 +33,8 @@ D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 20
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\courses\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\The Application\APIs\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

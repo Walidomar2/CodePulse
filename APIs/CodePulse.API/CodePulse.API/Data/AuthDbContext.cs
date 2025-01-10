@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodePulse.API.Data
 {
     public class AuthDbContext : IdentityDbContext
     {
-        public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options) 
+        public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options)
         {
         }
 
@@ -13,9 +14,10 @@ namespace CodePulse.API.Data
         {
             base.OnModelCreating(builder);
 
-            var readerRoleId = "cd84edfb-52d3-42e3-b159-9dd27bef56d9";
-            var writerRoleId = "07da48f8-b16f-41c3-8d52-45bd09e51fb5";
+            var readerRoleId = "28d65a5b-a7db-4850-b380-83591f7d7531";
+            var writerRoleId = "9740f16c-24a1-4224-a7be-1bb00b7c6892";
 
+            // Create Reader and Writer Role
             var roles = new List<IdentityRole>
             {
                 new IdentityRole()
@@ -34,22 +36,26 @@ namespace CodePulse.API.Data
                 }
             };
 
+            // Seed the roles
             builder.Entity<IdentityRole>().HasData(roles);
 
-            var adminUserId = "8e7ac9dc-ae99-4a34-b20d-39a14a522c82";
+
+            // Create an Admin User
+            var adminUserId = "edc267ec-d43c-4e3b-8108-a1a1f819906d";
             var admin = new IdentityUser()
             {
                 Id = adminUserId,
-                UserName = "admin",
-                Email = "admin@app.com",
-                NormalizedEmail = "admin@app.com".ToUpper(),
-                NormalizedUserName = "admin".ToUpper(),
+                UserName = "admin@codepulse.com",
+                Email = "admin@codepulse.com",
+                NormalizedEmail = "admin@codepulse.com".ToUpper(),
+                NormalizedUserName = "admin@codepulse.com".ToUpper()
             };
 
-            admin.PasswordHash = new PasswordHasher<IdentityUser>()
-                .HashPassword(admin, "Admin@123");
+            admin.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(admin, "Admin@123");
 
             builder.Entity<IdentityUser>().HasData(admin);
+
+            // Give Roles To Admin
 
             var adminRoles = new List<IdentityUserRole<string>>()
             {
@@ -67,6 +73,5 @@ namespace CodePulse.API.Data
 
             builder.Entity<IdentityUserRole<string>>().HasData(adminRoles);
         }
-
     }
 }
