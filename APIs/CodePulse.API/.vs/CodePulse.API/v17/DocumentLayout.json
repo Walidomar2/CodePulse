@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\repositories\\tokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\authenticationdtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\models\\dto\\authenticationdtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\authenticationdtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,8 +31,16 @@
       "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|d:\\courses\\udemy - angular and asp.net core rest api - real world application 2023-8\\the application\\apis\\codepulse.api\\codepulse.api\\models\\dto\\authenticationdtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D213425-AAF2-42C3-9DE9-D39FF529833A}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\authenticationdtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedHeight": 76,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAADoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T01:46:29.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,7 +77,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\TokenRepository.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Repositories\\TokenRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Repositories\\TokenRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T01:24:20.757Z",
               "EditorCaption": ""
@@ -73,7 +90,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Interfaces\\ITokenRepository.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Interfaces\\ITokenRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Interfaces\\ITokenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T01:22:49.557Z",
               "EditorCaption": ""
@@ -93,19 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AuthDbContext.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Data\\AuthDbContext.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Data\\AuthDbContext.cs",
               "RelativeToolTip": "CodePulse.API\\Data\\AuthDbContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwB8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T23:21:32.847Z"
+              "WhenOpened": "2025-01-10T23:21:32.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Data\\ApplicationDbContext.cs",
@@ -113,24 +131,25 @@
               "RelativeToolTip": "CodePulse.API\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T23:01:57.239Z"
+              "WhenOpened": "2025-01-10T23:01:57.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T22:31:32.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RegisterRequestDto.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Models\\DTO\\AuthenticationDtos\\RegisterRequestDto.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\AuthenticationDtos\\RegisterRequestDto.cs",
@@ -138,12 +157,11 @@
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\AuthenticationDtos\\RegisterRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T22:28:37.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T22:28:37.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Program.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
@@ -151,20 +169,20 @@
               "RelativeToolTip": "CodePulse.API\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwCEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T22:57:17.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T22:57:17.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "BlogPostsController.cs",
               "DocumentMoniker": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
               "ToolTip": "D:\\courses\\Udemy - ANGULAR and ASP.NET Core REST API - Real World Application 2023-8\\The Application\\APIs\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:27:20.934Z"
+              "WhenOpened": "2025-01-08T14:27:20.934Z",
+              "EditorCaption": ""
             }
           ]
         },

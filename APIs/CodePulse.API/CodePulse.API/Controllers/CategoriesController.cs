@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CodePulse.API.Models.DTO.CategoryDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CodePulse.API.Controllers
@@ -56,6 +57,7 @@ namespace CodePulse.API.Controllers
 
         [HttpPut]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> UpdateCategory([FromRoute] Guid id,[FromBody] UpdateCategoryRequestDto updateCategoryModel)
         {
             var categoryDomain = _mapper.Map<Category>(updateCategoryModel);
@@ -72,6 +74,7 @@ namespace CodePulse.API.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
         {
             var categoryDomain = await _categoryRepository.DeleteAsync(id);
