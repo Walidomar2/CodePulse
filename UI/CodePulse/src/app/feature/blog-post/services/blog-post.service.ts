@@ -14,7 +14,7 @@ export class BlogPostService {
   constructor(private http: HttpClient) { }
 
   createBlogPost(data: AddBlogPost): Observable<BlogPost> {
-    return this.http.post<BlogPost>(`${environment.apiBaseUrl}/api/blogposts`, data);
+    return this.http.post<BlogPost>(`${environment.apiBaseUrl}/api/blogposts?addAuth=true`, data);
   }
 
   getAllBlogPosts(): Observable<BlogPost[]> {
@@ -30,10 +30,10 @@ export class BlogPostService {
   }
 
   updateBlogPost(id: string, data: UpdateBlogPost): Observable<BlogPost> {
-    return this.http.put<BlogPost>(`${environment.apiBaseUrl}/api/blogposts/${id}`, data);
+    return this.http.put<BlogPost>(`${environment.apiBaseUrl}/api/blogposts/${id}?addAuth=true`, data);
   }
 
   deleteBlogPost(id: string): Observable<BlogPost> {
-    return this.http.delete<BlogPost>(`${environment.apiBaseUrl}/api/blogposts/${id}`);
+    return this.http.delete<BlogPost>(`${environment.apiBaseUrl}/api/blogposts/${id}?addAuth=true`);
   }
 }
