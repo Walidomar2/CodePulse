@@ -30,6 +30,11 @@ export class LoginComponent {
           this.cookieService.set('Authorization', `Bearer ${response.token}`,
             undefined, '/', undefined, true, 'Strict');
 
+          this.authService.setUser({
+            email: response.email,
+            roles: response.roles
+          });
+
           this.router.navigateByUrl('/');
 
         }
