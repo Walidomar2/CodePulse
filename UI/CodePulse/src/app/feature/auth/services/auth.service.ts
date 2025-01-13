@@ -30,7 +30,7 @@ export class AuthService {
 
     this.$user.next(user);
     localStorage.setItem('user-email', user.email);
-    localStorage.setItem('user-email', user.roles.join(','));
+    localStorage.setItem('user-roles', user.roles.join(','));
 
   }
 
@@ -53,7 +53,7 @@ export class AuthService {
 
     return undefined;
   }
-  
+
   logout(): void {
     localStorage.clear();
     this.cookieService.delete('Authorization', '/');
